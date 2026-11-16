@@ -1,0 +1,2 @@
+import {NextResponse} from "next/server";
+export async function POST(){return NextResponse.json({error:"Paiement désactivé. Configurez le prestataire marchand, la vérification serveur et le webhook avant toute vente."},{status:501});}
